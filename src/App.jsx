@@ -14,7 +14,7 @@ function App() {
         setLoading(true);
 
         try {
-            const response = await axios.get(`http://localhost:5000/scrape?url=${encodeURIComponent(url)}`);
+            const response = await axios.get(`https://webpage-media-extractor.onrender.com/scrape?url=${encodeURIComponent(url)}`);
             setMedia(response.data.media);
         } catch (error) {
             console.error(error);
