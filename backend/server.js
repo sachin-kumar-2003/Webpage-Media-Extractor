@@ -5,8 +5,7 @@ const cors = require("cors");
 
 const app = express();
 const PORT = 5000;
-
-app.use(cors());
+app.use(cors({ origin: 'https://webpage-media-extractor.vercel.app' }));
 app.use(express.json());
 
 app.get("/scrape", async (req, res) => {
