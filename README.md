@@ -12,7 +12,7 @@ A React application that allows users to extract and download media (images and 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sachin-kumar-2003/Webpage-Media-Extractor.git
    cd <repository-directory>
    ```
 
