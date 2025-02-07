@@ -8,6 +8,9 @@ A React application that allows users to extract and download media (images and 
 - Toggle buttons to show/hide images and videos.
 - Download buttons for each media item.
 
+![image](https://github.com/user-attachments/assets/8ce5b1ed-3135-458a-8c30-8e72800339ad)
+
+
 ## Installation
 
 1. Clone the repository:
